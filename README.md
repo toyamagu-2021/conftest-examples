@@ -2,6 +2,8 @@
 
 ## Usage
 
+* Pull from konstraint
+  * `conftest pull github.com/plexsystems/konstraint/examples/lib -p opa/policy/k8s/lib`
 * Test: Validate manifest
   * All namespaces
     * `conftest test test.yaml --policy ./opa/policy/k8s --all-namespaces`
